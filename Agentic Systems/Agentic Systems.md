@@ -62,6 +62,9 @@ The paper argues that this automation is not just efficient but also potentially
 ### Looking Ahead: Future Directions for ADAS
 The authors propose several exciting future research directions. One involves "Higher-order ADAS," where meta-agents can themselves be improved by ADAS, creating a recursive loop of ever-improving agents. Another potential direction is "Multi-objective ADAS," which would allow agents to optimize for multiple objectives, such as cost, efficiency, and safety, in real-time. The paper also highlights the importance of safely developing ADAS, considering the implications of executing untrusted model-generated code.
 
+<img width="906" alt="image" src="https://github.com/user-attachments/assets/2097a4c4-cd87-4af9-9800-52ae9d023018">
+
+
 ### Conclusion
 In a world where AI systems are becoming more integral to everyday life, the ability to design more powerful, general-purpose agents automatically is crucial. The innovations presented in the "Automated Design of Agentic Systems" paper underscore the future potential of AI. By harnessing the power of meta-agents, ADAS offers a glimpse into a future where AI systems can self-improve, becoming not only more powerful but also more generalizable across domains.
 
