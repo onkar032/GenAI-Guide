@@ -21,4 +21,5 @@ Agentic systems have evolved significantly over the last few decades, transition
 Systems such as self-driving cars and robotic assistants became more practical, combining various sensory inputs and decision-making abilities to operate autonomously in the real world.
 
 **Multi-Agent Systems and AI Generating Algorithms (Late 2020s):** Multi-agent systems, where multiple agents work together or compete to solve tasks, became a focal point of research. AI-generating algorithms (AI-GAs), which learn to design AI systems autonomously, began to push the boundaries of agentic systems by exploring the automated creation and optimization of these agents.
+
 Today, many agentic systems can operate across different domains, making them adaptable, self-learning, and capable of working with other agents or humans to solve tasks.
