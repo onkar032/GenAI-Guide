@@ -1,22 +1,27 @@
+# Prompt Defense
+
 Prompt defense is a set of strategies and tools aimed at preventing or mitigating prompt injection attacks in Large Language Models (LLMs). Since prompt injection exploits the nature of LLMs by embedding harmful instructions into input prompts, these defense mechanisms focus on reducing the likelihood that a malicious input can affect the model's output.
 
-Here’s how prompt defense addresses the problem:
+## Here’s how prompt defense addresses the problem:
 
-1. Input Validation and Sanitization
+### 1. Input Validation and Sanitization
+
 How it works: Input validation involves checking user inputs to ensure they adhere to predefined rules. By sanitizing inputs, businesses can prevent malicious commands from being processed by the model.
+
 Impact: This reduces the chances of harmful or unwanted behavior by ensuring that only clean, validated data reaches the LLM.
-2. Privilege Control
+
+### 2. Privilege Control
+
 How it works: Privilege control limits what the LLM can access or execute, based on roles or permissions. This might involve restricting access to APIs, databases, or other system functionalities to ensure that the LLM cannot perform high-risk operations.
-Impact: By implementing the principle of least privilege, businesses ensure that even if a malicious prompt is injected, it won’t result in unauthorized actions like deleting data or accessing confidential information​(
-OWASP Top 10 AI Security
-).
-3. Human-in-the-Loop
-How it works: Introducing human oversight ensures that critical actions, such as sending emails or making decisions, are verified before execution. This approach introduces a layer of manual review to check for suspicious outputs.
-Impact: It prevents automated systems from making harmful decisions due to manipulated prompts, significantly reducing the potential for damage​(
-OWASP Top 10 AI Security
-)​(
-Lakera
-).
+
+Impact: By implementing the principle of least privilege, businesses ensure that even if a malicious prompt is injected, it won’t result in unauthorized actions like deleting data or accessing confidential information​.
+
+## 3. Human-in-the-Loop
+
+** How it works:** Introducing human oversight ensures that critical actions, such as sending emails or making decisions, are verified before execution. This approach introduces a layer of manual review to check for suspicious outputs.
+
+Impact: It prevents automated systems from making harmful decisions due to manipulated prompts, significantly reducing the potential for damage​.
+
 4. Segregating User and External Prompts
 How it works: Separating user-generated content from the internal instructions of the model helps to distinguish between trusted and untrusted input. Tools like ChatML can help with this by marking which parts of the input come from users and which come from trusted sources.
 Impact: This limits the influence that malicious external data can have on the model's behavior​(
