@@ -29,11 +29,13 @@ Today, many agentic systems can operate across different domains, making them ad
 Artificial Intelligence (AI) is on the cusp of revolutionizing how we design systems capable of performing complex tasks autonomously. In a groundbreaking study by Shengran Hu, Cong Lu, and Jeff Clune, titled "Automated Design of Agentic Systems" (ADAS), the authors propose a novel research area focused on creating agentic systems through automation. This new research marks a significant departure from manual design, which has traditionally dominated AI system development. Here, we’ll dive into the highlights, key takeaways, and future potential of ADAS.
 
 ## What is ADAS?
+
 Automated Design of Agentic Systems (ADAS) introduces the concept of using foundation models (FMs) like GPT and Claude to design agentic systems automatically. Agentic systems refer to AI systems that can plan, reason, and use tools iteratively to solve tasks—systems that aren't merely executing pre-programmed steps but dynamically learning and improving over time.
 
 The paper emphasizes that while current models rely heavily on hand-designed solutions—such as prompts, tool use, and memory structures—ADAS aims to automate this process. It proposes using meta-agents, which are AI models capable of programming new agents based on code. These agents are automatically refined, tested, and improved in a continuous cycle, resulting in designs that are more robust and powerful than manually created agents.
 
 ## What’s New in ADAS?
+
 The most significant advancement in ADAS lies in its ability to automatically design agents in code, allowing AI systems to innovate new solutions without human intervention. The authors propose a "Meta Agent Search" algorithm, which iteratively programs new agents, tests their performance, and uses past discoveries to inform future designs.
 
 ## Here’s a snapshot of the key innovations:
@@ -52,6 +54,7 @@ The most significant advancement in ADAS lies in its ability to automatically de
 **The transferability of these agents across domains further emphasizes their flexibility and general utility, illustrating that agents developed for one task can perform well in unrelated fields like science or coding.**
 
 **Why It Matters**
+
 The ADAS approach to designing agentic systems automatically represents a paradigm shift. It removes the need for manual effort in developing intricate, task-specific AI systems. This ability to autonomously invent new system components, control flows, and combinations of these elements is a significant leap forward.
 
 The paper argues that this automation is not just efficient but also potentially faster and more effective than manual efforts, especially when scaling AI solutions to real-world applications. Given the success of ADAS in improving agent robustness and transferability, this research may prove to be a game changer for industries that rely on complex AI systems for automation, decision-making, and more.
