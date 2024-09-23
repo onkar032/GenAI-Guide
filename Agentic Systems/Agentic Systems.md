@@ -53,7 +53,7 @@ The most significant advancement in ADAS lies in its ability to automatically de
 
 **The transferability of these agents across domains further emphasizes their flexibility and general utility, illustrating that agents developed for one task can perform well in unrelated fields like science or coding.**
 
-**Why It Matters**
+## Why It Matters
 
 The ADAS approach to designing agentic systems automatically represents a paradigm shift. It removes the need for manual effort in developing intricate, task-specific AI systems. This ability to autonomously invent new system components, control flows, and combinations of these elements is a significant leap forward.
 
