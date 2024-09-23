@@ -46,7 +46,9 @@ The most significant advancement in ADAS lies in its ability to automatically de
 **Key Findings:** The authors tested their Meta Agent Search algorithm across multiple domains, demonstrating its superiority over traditional methods. For example:
 
 **In reading comprehension tasks, agents discovered via ADAS improved F1 scores by 13.6%.**
+
 **In math problem-solving, they outperformed baseline models by over 14%.**
+
 **The transferability of these agents across domains further emphasizes their flexibility and general utility, illustrating that agents developed for one task can perform well in unrelated fields like science or coding.**
 
 **Why It Matters**
