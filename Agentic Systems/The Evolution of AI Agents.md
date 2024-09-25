@@ -42,7 +42,7 @@ To develop and deploy modern AI agents, several advanced architectures, platform
 
 **2.Cognitive Agents:** These agents incorporate memory and reasoning capabilities, typically leveraging Belief-Desire-Intention (BDI) architectures for decision-making.
 
-**Hybrid Agents:** Hybrid architectures combine reactive and cognitive capabilities, allowing agents to handle real-time inputs while planning for long-term goals.
+**3. Hybrid Agents:** Hybrid architectures combine reactive and cognitive capabilities, allowing agents to handle real-time inputs while planning for long-term goals.
 
 ## Tools and Frameworks
 
